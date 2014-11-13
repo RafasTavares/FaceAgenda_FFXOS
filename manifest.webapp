@@ -1,0 +1,27 @@
+{
+	"name": "Your app name goes here / O nome do seu aplicativo vai aqui",
+	"description": "Your app description goes here / Uma descricao sobre seu aplicativo aqui",
+	"launch_path": "/index.html",
+	"developer": {
+		"name": "The name of the developer / O nome do desenvolvedor",
+		"url": "Developer's website or something that is related to the app"
+	},
+	"icons": {
+		"32" : "/images/icons/icon32.png (This is optimal for Windows 7 and Android)",
+		"90" : "/images/icons/icon90.png (This is optimal for Windows 7 and Android)",
+		"120": "/images/icons/icon120.png (This is optimal for Windows 7 and Android)",
+		"128": "/images/icons/icon128.png (This is the only mandatory size!)",
+		"256": "/images/icons/icon256.png (This is optimal for Windows 7 and Android)"
+	},
+	"fullscreen": "true or false (Whether your app should be launched fullscreen / Se seu aplicativo e tela cheia ou nao.)",
+	"default_locale": "Default langauge that the app should show / Lingua padrao do app ",
+	"orientation": "orientações na qual o aplicativo funcionará",
+	"type": "privileged",
+	"permissions": {
+	    "systemXHR": {
+			"description": "For future XmlHTTPRequests"
+		}
+	},
+	"installs_allowed_from": ["*"],
+	"version": "1.0"
+}
